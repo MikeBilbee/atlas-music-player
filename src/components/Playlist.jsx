@@ -5,7 +5,7 @@ import PlayListItem from './PlayListItem';
 const Playlist = ({ songs, onSongSelect }) => {
 	
 	return (
-		<div className="space-y-2">
+		<div className="space-y-0">
 			<h2 className="mb-4 text-[1.45rem] font-bold dark:text-gray-400">Playlist</h2>
 			{songs.map((song) => (
 				<div 
